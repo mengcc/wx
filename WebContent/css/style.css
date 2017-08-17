@@ -1,0 +1,125 @@
+html{
+    overflow: scroll;
+    vertical-align: baseline;
+}
+body {
+    font-family: Microsoft YaHei, Segoe UI, Tahoma, Arial, Verdana, sans-serif;
+    background: #f6f6f6 none repeat scroll 0 0;
+    /*background-color: #f9f9f9;*/
+    font-size: 12px;
+    color: #fff;
+    height: 100%;
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+    transition-duration: 0.2s;
+    transition-property: opacity;
+}
+a:focus{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    cursor:pointer;
+    color: #799961;
+    opacity: 0.8;
+}
+
+.sidebar{
+    width: 10%;
+    font-size: 16px;
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f8f8f8;
+    border-right: 1px solid #eee;
+}
+.nav-sidebar {
+    margin-right: -21px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.nav-sidebar li a:hover {
+    padding-left: 30px;
+}
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #3399CC;
+}
+.main{
+    height: 700px; width: 2000px;
+    margin: -8px 0 0 160px;
+}
+.row-col{
+    /*margin: 10px 0 0 10px;*/
+    border-radius: 10px;
+}
+.back_panel{
+    background-color: #e6e6e6;
+}
+.back_pane2{
+    margin-left: 10px;
+    background-color: #e6e6e6;
+}
+.header_txt{
+    margin: 0 0 0 0;
+    padding: 6px 12px 6px 12px;
+    font-size: 20px;
+}
+
+.panel-heading-menu{
+    margin-top: 20px;
+}
+
+.menu_ul{
+    margin-bottom: 0px;
+    line-height: 20px;
+}
+.menu_ul li{
+    padding-left: 60px;
+}
+.menu_ul li a{
+    font-size: 15px;
+}
+.back-body ul li{
+   margin: 3px;
+}
+.back-body ul li a{
+    color: #000;
+    font-size: 13px;
+    letter-spacing:1px;
+}
+.back-body ul li:hover{
+    background-color:#5cb85c;
+}
+.tab-content{
+    color: #767676;
+}
+.tab-content .tab-pane p{
+    line-height: 15px;
+    background-color: #fff;
+    text-indent: 2em;
+    font-size: 13px;
+    padding: 10px;
+    border-radius :10px;
+}
+.tab-content .tab-pane .form-group textarea{
+    max-width: 803px;
+}
+.tab-content .tab-pane .form-group button{
+   text-align: right;
+}
+
+

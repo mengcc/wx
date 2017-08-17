@@ -1,0 +1,14 @@
+jdbcUrl = jdbc:mysql://localhost:3306/mywx
+user = root
+password =123
+devMode = true
+
+# 微信服务器回调所用的 token
+token=wx_kmb
+encodingAesKey=95h1IfXBeLzxlPBXPP4Gh6idlDcPJmopoSVXiwB3bRZ
+
+appId=wx1fc8973668a2b34a 
+appSecret=f0e78de3957a5863c0aaaa45c75a0371
+encryptMessage=false
+
+
